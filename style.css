@@ -133,8 +133,48 @@ header nav ul li{
     margin-left: 40px;
     font-size: 15px;
     font-weight: bold;
+    position: relative;
 }
 header nav ul li:first-child{
     margin-left: 0;
+}
+nav ul ul {
+    top: 59px;
+    left: -18px;
+    background: #000000;
+    position: absolute;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    display: none;
+
+}
+nav ul ul li{
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 0;
+
+}
+
+nav ul ul::after {
+    background: black;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: -10px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+nav ul li:hover ul{
+    display: block;
+}
+#submenu{
+    padding-top: 30px;
 }
 
