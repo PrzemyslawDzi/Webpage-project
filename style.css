@@ -102,6 +102,7 @@ input, select {
 }
 
 /*MY CODE*/
+
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -109,6 +110,7 @@ body{
     width: 1060px;
     margin: 0 auto;
 }
+/*HEADER*/
 header{
     background-color: black;
     height: 41px;
@@ -134,6 +136,7 @@ header nav ul li{
     font-size: 15px;
     font-weight: bold;
     position: relative;
+    z-index: 1000;
 }
 header nav ul li:first-child{
     margin-left: 0;
@@ -178,3 +181,69 @@ nav ul li:hover ul{
     padding-top: 30px;
 }
 
+/*FIRST SECTION*/
+section{
+    height: 504px;
+    background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 47%, rgba(230,230,230,1) 66%, rgba(230,230,230,1) 100%);
+}
+section .content{
+    position: relative;
+
+}
+section  img{
+    position: absolute;
+    top: 57px;
+    height: 400px;
+    left: -35px;
+}
+
+section h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 45px;
+    font-weight: normal;
+}
+section h2 span {
+    color: rgb(68, 186, 158);
+    font-weight: bold;
+}
+
+section .content div{
+    height: 504px;
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    margin-right: 155px;
+}
+section .content div a{
+    background-color: rgb(68, 186, 158);
+    padding: 12px;
+    color: white;
+    margin: 30px 70px 40px 70px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 28px;
+}
+section .content div p{
+    line-height: 25px
+}
+section .content div:before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: deeppink;
+    left: 0px;
+}
+section .content div:after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: deeppink;
+    right: 0;
+}
