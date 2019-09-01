@@ -253,3 +253,80 @@ section .content div:after {
     font-family: 'releway light';
     top: 198px;
 }
+#firstphotolink{
+    background: url("./images/box1_img.jpg") no-repeat center;
+    width: 330px;
+    height: 200px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+}
+#secondphotolink{
+    background: url("./images/box2_img.jpg") no-repeat center;
+    width: 330px;
+    height: 200px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+}
+#shortarticle{
+    width: 330px;
+    height: 230px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+    border: solid grey 1px;
+
+}
+
+.linkedImages div{
+    background: rgba(255,255,255,0.4);
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 15px;
+}
+
+.linkedImages div h2::after{
+    content: ' ';
+    display: block;
+    width: 170px;
+    height: 3px;
+    background-color: rgb(68, 186, 158);
+    padding: 2px;
+}
+
+.linkedImages a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+headings .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#shortarticle h2{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#shortarticle p{
+    margin-left: 10px;
+    margin-right: 47px;
+    font-family: 'releway light';
+    color: grey;
+    font-size: 13px;
+    line-height: 20px;
+}
+#shortarticle > div > p:nth-child(3){
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
