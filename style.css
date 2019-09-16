@@ -557,9 +557,133 @@ nav ul li:hover ul{
 
 #prices{
     border-bottom: 8px solid rgb(68, 186, 158);
+    color: #535353;
     font-weight: normal;
     font-size: 24px;
     text-transform: uppercase;
     padding-top: 45px;
     width: 320px;
+}
+
+/*============TEST================*/
+
+.contact {
+    height: 550px;
+    position: relative;
+}
+.contact h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #535353;
+    letter-spacing: 1px;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.contact  h2:before {
+    content: "";
+    height: 8px;
+    width: 330px;
+    background: #2AC6AE;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    top: 33px;
+}
+
+.inputForm{
+    width: 635px;
+    height: 65px;
+    font-size: 32px;
+    color: #535353;
+    border: 1px solid rgb(68, 186, 158);
+    margin-top: 14px;
+    margin-bottom: 11px;
+
+}
+.inputForm::placeholder{
+    color: #CBCBCB;
+}
+
+#textareaForm{
+    resize: none;
+    width: 631px;
+    height: 190px;
+    font-size: 32px;
+    color: #535353;
+    border: 1px solid rgb(68, 186, 158);
+    margin-top: 14px;
+}
+#textareaForm::placeholder{
+    color: #CBCBCB;
+}
+#redChairImg{
+    position: absolute;
+    bottom: 243px;
+    right: 472px;
+}
+#submitButton{
+    text-transform: uppercase;
+    width: 342px;
+    height: 70px;
+    background-color:rgb(68, 186, 158);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 414px;
+    bottom: 42px;
+}
+#sendData{
+    display: inline;
+    position: absolute;
+    font-size: 18px;
+    width: 285px;
+    bottom: 150px;
+    right: 409px;
+}
+#onlyCheckbox{
+    display: none;
+}
+#checkedImage{
+    position: absolute;
+    height: 48px;
+    width: 47px;
+    bottom: 150px;
+    right: 715px;
+    border: 1px solid rgb(68, 186, 158);
+}
+footer{
+    height: 100px;
+}
+footer .content{
+    display: flex;
+    justify-content: space-between;
+}
+.copyrights{
+    line-height: 100px;
+}
+.footerImgs p{
+    float: right;
+    line-height: 100px;
+    color: #9E9E9E;
+}
+.footerImgs span{
+    font-weight: bold;
+
+}
+
+footer h3{
+    color: #9E9E9E;
+    font-weight: normal;
+}
+
+.footerImgs img{
+    margin-top: 25px;
+}
+.footerImgs img:nth-last-of-type(1){
+    margin-right: 112px;
 }
