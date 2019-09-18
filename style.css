@@ -957,3 +957,55 @@ footer h3{
 .title {
     height: 30px;
 }
+
+
+
+.prices-round {
+    background: #ffffff;
+    color: #24baa0;
+    position: absolute;
+    top: 108px;
+    left: 135px;
+    width: 60px;
+}
+.prices-round span:first-child {
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.prices-round strong{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: absolute;
+    top: 54px;
+    left: -5px;
+}
+.prices-round span:last-child {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.prices-round span .prices-iup {
+    vertical-align: super;
+    top: 0;
+    position: absolute;
+}
+.prices-round span {
+    align-items: center;
+    position: relative;
+}
+#firstPrice{
+    color: #c2c2c2;
+}
+#thirdPrice{
+    color: #c2c2c2;
+    width: 85px;
+    left: 130px;
+}
+
+/*Cały kod wygląda jak tałataństwo i żart
+miljon nadpisanych rzeczy itp na pewno zrobie wszystko jeszcze raz po zakończeniu
+kursu bo żeby doprowadzić to wszystko do ładu to po prostu mi zabrakło czasu*/
